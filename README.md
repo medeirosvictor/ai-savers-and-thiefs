@@ -74,7 +74,7 @@ Trabalho IA - Poupador/
 
 ### Prerequisites
 
-- **Java 8** (JDK 1.8) or later — [download here](https://adoptium.net/)
+- **Java 8** (JDK 1.8) or later — [download here](https://www.oracle.com/java/technologies/downloads/)
 
 ### From the command line
 
