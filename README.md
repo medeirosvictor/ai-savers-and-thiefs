@@ -74,21 +74,20 @@ Trabalho IA - Poupador/
 
 ### Prerequisites
 
+- **Windows** (the simulation framework uses Windows-specific Swing components)
 - **Java 8** (JDK 1.8) or later — [download here](https://www.oracle.com/java/technologies/downloads/)
 
-### From the command line
+### From the command line (Windows)
 
-```bash
+```cmd
 cd "Trabalho IA - Poupador"
 
-# Compile (if classes are missing or you've made changes)
-javac -cp "lib/poupador.jar" -d classes src/algoritmo/*.java src/algoritmo/enums/*.java src/aplicacao/*.java
+:: Compile (if classes are missing or you've made changes)
+javac -cp "lib\poupador.jar" -d classes src\algoritmo\*.java src\algoritmo\enums\*.java src\aplicacao\*.java
 
-# Run
-java -cp "classes:lib/poupador.jar" aplicacao.Executa
+:: Run
+java -cp "classes;lib\poupador.jar" aplicacao.Executa
 ```
-
-> **Windows users**: replace `:` with `;` in the classpath — e.g. `"classes;lib/poupador.jar"`
 
 ### From an IDE
 
